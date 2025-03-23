@@ -940,7 +940,7 @@ fn get_api_server_(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "http://113.45.147.172".to_owned()
+    "http://xiba.dongming.site".to_owned()
 }
 
 pub fn get_audit_server(api: String, custom: String, typ: String) -> String {
